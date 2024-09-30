@@ -6,7 +6,6 @@
 
 # Development
 node_modules
-.env
 *.local
 
 # Cache
@@ -41,6 +40,19 @@ lerna-debug.log*
 .yarn/*
 !.yarn/releases
 
+# Cloudflare
+functions/**/*.js
+
+.env*
 
 .nx/cache
 .nx/workspace-data
+
+mail/.env*
+
+.lockb*
+pnpm-lock.yaml
+bun.lockb
+
+bun.lockb
+pnpm-lock.yaml
